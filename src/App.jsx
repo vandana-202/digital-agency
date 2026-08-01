@@ -2,6 +2,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import Home from "./pages/Home";
 import Dashboard from "./pages/Dashboard";
+import Contact from "./components/Contact";
 
 
 function App() {
@@ -9,11 +10,13 @@ function App() {
     <BrowserRouter>
 
       <Routes>
+        <Contact/>
 
         {/* Landing Page */}
         <Route 
           path="/" 
           element={<Home />} 
+        
         />
 
 
