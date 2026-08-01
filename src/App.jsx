@@ -5,12 +5,13 @@ import Dashboard from "./pages/Dashboard";
 import Contact from "./components/Contact";
 
 
+
 function App() {
   return (
     <BrowserRouter>
 
       <Routes>
-        <Contact/>
+        
         
   
 
@@ -20,6 +21,7 @@ function App() {
           element={<Home />} 
         
         />
+        <Route path="/contact" element={<Contact/>} />
 
 
         {/* Dashboard Page */}
@@ -27,6 +29,7 @@ function App() {
           path="/dashboard" 
           element={<Dashboard />} 
         />
+
 
       </Routes>
 
