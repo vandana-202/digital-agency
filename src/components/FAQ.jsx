@@ -1,4 +1,4 @@
-import "./Faq.css";
+import "./FAQ.css";
 
 function Faq() {
   return (
